@@ -51,7 +51,7 @@ nav ul li a {
   font-size: 18px;
   transition: 0.4s;
   text-transform: capitalize;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 nav ul li:hover a {
@@ -161,7 +161,7 @@ nav ul li.btn.hide i:before {
   font-size: 40px;
   letter-spacing: 2.5px;
   margin-bottom: 50px;
-  font-family: "Pattaya", sans-serif;
+  font-family: sans-serif;
 }
 
 .inner-container {
@@ -254,7 +254,7 @@ nav ul li.btn.hide i:before {
   text-align: center;
   font-size: 40px;
   letter-spacing: 2.5px;
-  font-family: "Pattaya", sans-serif;
+  font-family: sans-serif;
   margin-bottom: 0px;
 }
 
@@ -308,7 +308,7 @@ nav ul li.btn.hide i:before {
   text-align: center;
   font-size: 40px;
   letter-spacing: 2.5px;
-  font-family: "Pattaya", sans-serif;
+  font-family:sans-serif;
   margin-bottom: 0px;
   color: #236c7e;
 }
@@ -413,7 +413,7 @@ nav ul li.btn.hide i:before {
     font-size: 45px;
     text-transform: capitalize;
     letter-spacing: 1.5px;
-    font-family: 'Pattaya', sans-serif;
+    font-family: sans-serif;
 }
 
 .contact-container{
@@ -421,6 +421,7 @@ nav ul li.btn.hide i:before {
     align-items: center;
     justify-content: center;
     width: 100%;
+    flex-direction: column;
 }
 
 .contact-container input{
@@ -428,14 +429,17 @@ nav ul li.btn.hide i:before {
     border: none;
    border-radius: 40px;
    outline: none;
+   margin-bottom: 10px;
 }
 
 .contact-container button{
     border: none;
-    background: transparent;
-    color: #ffffff;
+    background: #ffffff;
+    color: #236c7e;
     font-weight: 700;
     cursor: pointer;
+    padding: 7px 25px;
+    border-radius: 5px;
 }
 
 
@@ -470,8 +474,5 @@ nav ul li.btn.hide i:before {
     }
     .properties {
         flex-direction: column;
-    }
-    .contact-container{
-      flex-direction: column;
     }
 }
