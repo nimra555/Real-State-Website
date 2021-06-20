@@ -448,11 +448,7 @@ nav ul li.btn.hide i:before {
         flex-direction: column;
     }
     .main-img {
-        margin-right: 200px;
-    }
-    .main-img img {
-        max-width: 400px;
-        max-height: 400px;
+        display: none;
     }
     .main-text {
         text-align: center;
@@ -474,5 +470,8 @@ nav ul li.btn.hide i:before {
     }
     .properties {
         flex-direction: column;
+    }
+    .property-container p {
+      text-align: center;
     }
 }
